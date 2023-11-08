@@ -68,7 +68,7 @@ def updateValues(s):
                     cells[(rows,col)].insert(0,sol[rows-2][col-1])
             solvedLabel.configure(text="Sudoku solved!")
     else:
-            errLabel.configure(text="No solution exists for this ")
+            errLabel.configure(text="No solution exists for this")
             
 
 draw9x9Grid()
